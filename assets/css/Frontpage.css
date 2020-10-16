@@ -2732,6 +2732,12 @@ ul.icons {
 			#header {
 				padding: 3.5em 0 3em 0;
 			}
+			#header p {
+				color: #555454;
+				position: relative;
+				text-align: left;
+				margin: 0em 4em 0 4em;
+			}
 
 		/* Nav */
 
@@ -3093,20 +3099,27 @@ ul.icons {
 
 			#header {
 				text-align: center;
-				padding: 2em 0;
+				padding: 4em 1em 0em 1em;
 			}
 
 				#header h1 {
-					color: #252122;
+					color: #b123d5;
 					font-weight: 900;
-					font-size: 1.75em;
-					letter-spacing: -0.035em;
+					font-size: 2em;
+					letter-spacing: -0.015em;
 				}
+				#header p {
+					color: #555454;
+					position: relative;
+					text-align: left;
+					margin: 0em 2em 0 2em;
+				}
+
 
 		/* Intro */
 
 			#intro {
-				padding: 2em 0 0 0;
+				padding: 1em 0 0 0;
 			}
 
 				#intro section {
