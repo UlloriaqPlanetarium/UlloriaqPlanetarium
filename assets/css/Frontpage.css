@@ -2556,7 +2556,8 @@ ul.icons {
 	position: relative;
 	overflow: hidden;
 	border-top: solid 2px #e5e5e5;
-	background: #f0f0f0;
+	background: #252122;
+	background-image: url("images/Background.jpg");
 	padding: 6em 0 8em 0;
 }
 
@@ -2578,6 +2579,23 @@ ul.icons {
 
 	#footer h2 {
 		text-align: center;
+		color: rgb(255, 255, 255);
+	}
+	#footer strong {
+		text-align: center;
+		color: rgb(255, 255, 255);
+	}
+	#footer p {
+		color: #ffffff;
+		position: relative;
+		text-align: left;
+		margin: 0em 2em 0 2em;
+	}
+	#footer a {
+		color: #ffffff;
+		position: relative;
+		text-align: left;
+		margin: 0em 2em 0 2em;
 	}
 
 /* Copyright */
@@ -2585,6 +2603,7 @@ ul.icons {
 	#copyright {
 		text-align: center;
 		margin: 2em 0 -8em 10em;
+		color: rgb(255, 255, 255);
 	}
 
 		#copyright ul.links {
@@ -2595,8 +2614,6 @@ ul.icons {
 			margin: 0;
 			padding: 0.85em 2.25em 0.85em 2.25em;
 		}
-
-
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {

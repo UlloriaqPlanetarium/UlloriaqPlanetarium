@@ -1934,38 +1934,6 @@ input, select, textarea {
 						background: #3dbaf4;
 					}
 
-				ul.social li a.fa-dribbble {
-					background: #c4376b;
-				}
-
-					ul.social li a.fa-dribbble:hover {
-						background: #d4477b;
-					}
-
-				ul.social li a.fa-linkedin {
-					background: #006599;
-				}
-
-					ul.social li a.fa-linkedin:hover {
-						background: #1075a9;
-					}
-
-				ul.social li a.fa-tumblr {
-					background: #2b4661;
-				}
-
-					ul.social li a.fa-tumblr:hover {
-						background: #3b5671;
-					}
-
-				ul.social li a.fa-google-plus {
-					background: #da2713;
-				}
-
-					ul.social li a.fa-google-plus:hover {
-						background: #ea3723;
-					}
-
 /* Icons */
 
 	ul.icons {
@@ -2548,8 +2516,9 @@ input, select, textarea {
 	position: relative;
 	overflow: hidden;
 	border-top: solid 2px #e5e5e5;
-	background: #f0f0f0;
-	padding: 6em 0 8em 0;
+	background: #252122;
+	background-image: url("images/Background.jpg");
+	padding: 4em 0 8em 0;
 }
 
 	#footer form input[type="text"],
@@ -2570,6 +2539,23 @@ input, select, textarea {
 
 	#footer h2 {
 		text-align: center;
+		color: rgb(255, 255, 255);
+	}
+	#footer strong {
+		text-align: center;
+		color: rgb(255, 255, 255);
+	}
+	#footer p {
+		color: #ffffff;
+		position: relative;
+		text-align: left;
+		margin: 0em 2em 0 2em;
+	}
+	#footer a {
+		color: #ffffff;
+		position: relative;
+		text-align: left;
+		margin: 0em 2em 0 2em;
 	}
 
 /* Copyright */
@@ -2577,6 +2563,7 @@ input, select, textarea {
 	#copyright {
 		text-align: center;
 		margin: 2em 0 -8em 10em;
+		color: rgb(255, 255, 255);
 	}
 
 		#copyright ul.links {
