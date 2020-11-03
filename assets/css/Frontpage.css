@@ -373,7 +373,7 @@ input, select, textarea {
 
 	strong, b {
 		color: #252122;
-		font-weight: 400;
+		font-weight: 500;
 	}
 
 	i, em {
@@ -399,7 +399,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #252122;
+		color: #494949;
 		font-weight: 700;
 	}
 
@@ -1826,9 +1826,6 @@ input, select, textarea {
 				margin: 0;
 				padding: 0 1em 0 1em;
 			}
-
-	footer {
-		margin: 2.25em 0 0 0;
 	}
 
 /* Box */
@@ -2028,8 +2025,8 @@ button,
 		ul.links li {
 			display: inline-block;
 			border-left: solid 1px rgba(255, 255, 255, 0.05);
-			padding: 0 0 0 1em;
-			margin: 0 0 0 1em;
+			padding: 0 0 0 0em;
+			margin: 0 0 0 0em;
 		}
 
 			ul.links li:first-child {
@@ -2320,9 +2317,9 @@ ul.icons {
 	#header {
 		position: relative;
 		background: #ffffff;
-		background-image: url("images/Background.jpg");
+		background-image: url("images/Background2.jpg");
 		border-bottom: solid 1px #ccc;
-		padding: 3.8em 0 4em 0;
+		padding: 3.8em 0 0em 0;
 		text-align: center;
 	}
 
@@ -2337,10 +2334,9 @@ ul.icons {
 		#header p {
 			color: rgb(255, 255, 255);
 			position: relative;
-			margin: 0em 0em 0 85em;
-			top: -3em;
-			left: -1em;
-			font-weight: 900;
+			margin: 0em 0em 0 0em;
+			font-weight: 400;
+			text-align: center;
 		}
 
 /* Nav */
@@ -2523,9 +2519,6 @@ ul.icons {
 			min-width: 12em;
 		}
 
-		#intro footer {
-			margin: 0;
-		}
 
 /* Main */
 
@@ -2558,7 +2551,7 @@ ul.icons {
 	border-top: solid 2px #e5e5e5;
 	background: #252122;
 	background-image: url("images/Background.jpg");
-	padding: 6em 0 8em 0;
+	padding: 4em 0 8em 0;
 }
 
 	#footer form input[type="text"],
@@ -2588,31 +2581,32 @@ ul.icons {
 	#footer p {
 		color: #ffffff;
 		position: relative;
-		text-align: left;
-		margin: 0em 2em 0 2em;
+		text-align: center;
+		margin: 0em 0em 0 0em;
 	}
 	#footer a {
 		color: #ffffff;
 		position: relative;
-		text-align: left;
-		margin: 0em 2em 0 2em;
+		text-align: center;
+		margin: 0em 0em 0 0em;
 	}
 
 /* Copyright */
 
 	#copyright {
+		position: relative;
 		text-align: center;
 		margin: 2em 0 -8em 10em;
+		background-color: rgba(0, 0, 0, 0.507);
 		color: rgb(255, 255, 255);
 	}
 
 		#copyright ul.links {
 			display: inline-block;
-			background: #2C2929;
-			background: rgba(255, 255, 255, 0.05);
+			background: rgba(255, 255, 255, 0);
 			border-radius: 5px;
 			margin: 0;
-			padding: 0.85em 2.25em 0.85em 2.25em;
+			padding: 0em 2.25em 0.85em 2.25em;
 		}
 /* XLarge */
 
@@ -2689,28 +2683,11 @@ ul.icons {
 				padding: 30px 0;
 			}
 
-		/* Footer */
-
-			#footer {
-				padding: 3em 0;
-			}
-
-				#footer:before {
-					height: 2.5em;
-				}
-
-				#footer header {
-					margin: 0 0 1.5em 0;
-				}
-
-					#footer header h2 {
-						font-size: 1.25em;
-					}
-
 		/* Copyright */
 
 			#copyright {
 				margin: 0;
+				text-align: center;
 			}
 
 	}
@@ -2806,6 +2783,9 @@ ul.icons {
 
 			#copyright ul.links {
 				display: block;
+				position: relative;
+				text-align: center;
+				margin: 0em 0 -8em 8em;
 			}
 
 		/* Nav */
@@ -3097,7 +3077,7 @@ ul.icons {
 		/* Social */
 
 			ul.social li {
-				margin: 0 0.5em 0.75em 0;
+				margin: 0 0.5em 2.75em 0;
 			}
 
 		/* Icons */
@@ -3171,7 +3151,15 @@ ul.icons {
 					#banner header p {
 						font-size: 1.2em;
 					}
+		/* Copyright */
 
+			#copyright ul.links {
+				display: block;
+				position: relative;
+				text-align: center;
+				margin: 0em 0 -2em 6em;
+				background-image: inherit;
+			}
 		/* Main */
 
 			#main {
