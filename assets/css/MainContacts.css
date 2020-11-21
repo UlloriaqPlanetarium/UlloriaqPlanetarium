@@ -1558,8 +1558,8 @@ input, select, textarea {
 
 		ul.icons > li {
 			position: relative;
-			padding: 2em 0 0em 3em;
-			margin: 0;
+			padding: 2em 0em 0em 1em;
+			margin: 0em;
 		}
 
 			ul.icons > li:before {
@@ -1908,6 +1908,24 @@ input, select, textarea {
 			#copyright ul.links {
 				display: block;
 			}
+		
+		/* Icons */
+
+		.icon.featured {
+			width: 8em;
+			margin: 0 0 3em 0;
+		}
+
+			.icon.featured:after {
+				border-left: solid 4em transparent;
+				border-right: solid 4em transparent;
+			}
+
+			ul.icons > li {
+				position: relative;
+				padding: -1em 0em 0em 1em;
+				margin: 4em;
+			}
 
 		/* Nav */
 
@@ -2071,6 +2089,7 @@ input, select, textarea {
 				-ms-transform: translateX(0);
 				transform: translateX(0);
 			}
+		
 
 	}
 
@@ -2135,6 +2154,12 @@ input, select, textarea {
 				.icon.featured:after {
 					border-left: solid 4em transparent;
 					border-right: solid 4em transparent;
+				}
+
+				ul.icons > li {
+					position: relative;
+					padding: 2em 0em 0em 1em;
+					margin: 4em;
 				}
 
 		/* Header */
