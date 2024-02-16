@@ -1863,6 +1863,32 @@ input, select, textarea {
 				top: 0;
 			}
 
+/*Player*/
+
+#player {
+	padding: 0% 2.5%;
+}
+
+	#player iframe {
+		padding-top: 5px;
+		border: none;
+	}
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 769px) {
+		#player {
+			width: 55%;
+			padding: 0% 2.5%;
+		}
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		#player {
+			width: 90%;
+			padding: 0% 5%;
+		}
+	}
+
 /* Divided */
 
 	ul.divided {
